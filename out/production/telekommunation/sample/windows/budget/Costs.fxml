@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="449.0" prefWidth="805.0" style="-fx-background-color: BACDB0;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.budget.CostsController">
+    <children>
+        <BorderPane prefHeight="449.0" prefWidth="205.0" style="-fx-background-color: #363636;">
+            <top>
+                <Label prefHeight="62.0" prefWidth="119.0" text="main menu" textFill="#bacdb0" BorderPane.alignment="CENTER">
+                    <font>
+                        <Font name="Berlin Sans FB" size="24.0" />
+                    </font>
+                </Label>
+            </top>
+            <center>
+                <Button fx:id="BackButton" mnemonicParsing="false" prefHeight="48.0" prefWidth="171.0" text="Back" BorderPane.alignment="CENTER" />
+            </center>
+        </BorderPane>
+    </children>
+</AnchorPane>

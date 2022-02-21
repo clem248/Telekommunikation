@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: BACDB0;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.budget.CostsController">
+    <children>
+        <BorderPane prefHeight="410.0" prefWidth="199.0" style="-fx-background-color: #363636;">
+            <top>
+                <Label prefHeight="62.0" prefWidth="119.0" text="main menu" textFill="#bacdb0" BorderPane.alignment="CENTER">
+                    <font>
+                        <Font name="Berlin Sans FB" size="24.0" />
+                    </font>
+                </Label>
+            </top>
+            <center>
+                <Button fx:id="BackButton" mnemonicParsing="false" prefHeight="48.0" prefWidth="171.0" text="Back" BorderPane.alignment="CENTER" />
+            </center>
+        </BorderPane>
+        <Button fx:id="ListButton" layoutX="225.0" layoutY="59.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="171.0" text="List of salaries " />
+        <BorderPane layoutX="614.0" layoutY="5.0" opacity="0.52" prefHeight="400.0" prefWidth="85.0" style="-fx-background-color: #F39C69;" />
+        <Button fx:id="MonthlyButton" layoutX="412.0" layoutY="59.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="171.0" text="Monthly Transfer" />
+        <Button fx:id="PremiumButton" layoutX="225.0" layoutY="127.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="171.0" text="Premium" />
+        <Button fx:id="FinesButton" layoutX="412.0" layoutY="127.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="171.0" text="Fines" />
+    </children>
+</AnchorPane>

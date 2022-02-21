@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="adaptive">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Desktop/sqljdbc_9.4.0.0_rus/sqljdbc_9.4/rus/samples/adaptive" />
+      <root url="file://$USER_HOME$/Desktop/sqljdbc_9.4.0.0_rus/sqljdbc_9.4/rus/samples/alwaysencrypted" />
+      <root url="file://$USER_HOME$/Desktop/sqljdbc_9.4.0.0_rus/sqljdbc_9.4/rus/samples/azureactivedirectoryauthentication" />
+      <root url="file://$USER_HOME$/Desktop/sqljdbc_9.4.0.0_rus/sqljdbc_9.4/rus/samples/connections" />
+      <root url="file://$USER_HOME$/Desktop/sqljdbc_9.4.0.0_rus/sqljdbc_9.4/rus/samples/constrained" />
+      <root url="file://$USER_HOME$/Desktop/sqljdbc_9.4.0.0_rus/sqljdbc_9.4/rus/samples/dataclassification" />
+      <root url="file://$USER_HOME$/Desktop/sqljdbc_9.4.0.0_rus/sqljdbc_9.4/rus/samples/datatypes" />
+      <root url="file://$USER_HOME$/Desktop/sqljdbc_9.4.0.0_rus/sqljdbc_9.4/rus/samples/resultsets" />
+      <root url="file://$USER_HOME$/Desktop/sqljdbc_9.4.0.0_rus/sqljdbc_9.4/rus/samples/sparse" />
+    </SOURCES>
+  </library>
+</component>
